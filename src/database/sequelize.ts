@@ -2,7 +2,7 @@ import { Sequelize } from "sequelize";
 
 export const sequelize = new Sequelize({
 	dialect: "postgres",
-	database: process.env.DB_NAME || "musicas",
+	database: process.env.DB_NAME || "musics",
 	username: process.env.DB_USER || "postgres",
 	password: process.env.DB_PASSWORD || "123456",
 	host: process.env.DB_HOST || "localhost",
